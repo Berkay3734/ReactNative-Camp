@@ -1,0 +1,83 @@
+import {StyleSheet} from 'react-native';
+
+const homeStyle = StyleSheet.create({
+  container: {
+    flex:1,
+    backgroundColor:'white',
+    zIndex:-1,
+  },
+  story: {
+    marginTop:10,
+    height:'15%',
+  },
+  resim:{
+    width:60,
+    height:60,
+    borderRadius:100,
+    marginLeft:10,
+  },
+  miniResim:{
+    width:40,
+    height:40,
+    borderRadius:100,
+    marginLeft:10,
+  },
+  share:{
+    display:'flex',
+    flexDirection:'row',
+    alignItems:'center',
+    borderColor:'gray',
+    borderWidth:1,
+    borderRadius:10,
+  },
+  shareContainer:{
+    marginTop:10,
+  },
+  nickname:{
+    display:'flex',
+    position:'absolute',
+    bottom:-75,
+    fontSize:11,
+  },
+  blackSave:{
+    width:30,
+    height:30,
+    position:'absolute',
+  },
+  save:{
+    width:30,
+    height:30,
+  },
+  touchRight:{
+    position:'absolute',
+    right:0,       
+  },
+  startResim:{
+    width:30, 
+    height:30, 
+    marginLeft:15,
+  },
+  endResim:{
+    width:30, 
+    height:30, 
+    marginLeft:15,
+    position:'absolute',
+  },
+  postImage:{
+    width:'100%',
+    height:400,
+  },
+  icons:{
+    borderRadius:10,
+    flexDirection:'row',
+    marginTop:10,
+    borderWidth:1,
+    borderColor:'gray',
+    height:40,
+    alignItems:'center',
+  },
+  postName:{
+    marginLeft:10,
+  }
+});
+export default homeStyle;
